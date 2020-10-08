@@ -1,6 +1,6 @@
-# test
+# M-Lombard
 
-> test for dev 
+> Develop front of e-commerce
 
 ## Build Setup
 
