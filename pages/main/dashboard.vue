@@ -1,16 +1,13 @@
 <template>
-<div>
-<br>
-<br>
-<br> 
-</div>
+  <div>
+
+  </div>
 </template>
 
 <script>
 
 export default {
   components: {
-    
   }
 }
 </script>

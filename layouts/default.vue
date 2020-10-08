@@ -1,9 +1,33 @@
 <template>
-  <div>
+  <div class="main">
+    <LazyHydrate when-visible>
+      <main-header></main-header>
+    </LazyHydrate>
     <nuxt/>
+    <LazyHydrate when-visible>
+      <main-footer></main-footer>
+    </LazyHydrate>
   </div>
 </template>
-
+<script>
+import LazyHydrate from 'vue-lazy-hydration';
+const Header = () => import("@/components/header/Header.vue");
+const Footer = () => import("@/components/footer/Footer.vue");
+export default {
+  head: function() {
+    return {
+      htmlAttrs: {
+        // lang: this.$i18n.locale,
+      },
+    };
+  },
+  components: {
+    "main-header": Header,
+    "main-footer": Footer,
+    LazyHydrate,
+  }
+}
+</script>
 <style>
 html {
   font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -20,34 +44,13 @@ html {
   box-sizing: border-box;
   margin: 0;
 }
-
-.button--green {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
-  text-decoration: none;
-  padding: 10px 30px;
-}
-
-.button--green:hover {
-  color: #fff;
-  background-color: #3b8070;
-}
-
-.button--grey {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #35495e;
-  color: #35495e;
-  text-decoration: none;
-  padding: 10px 30px;
-  margin-left: 15px;
-}
-
-.button--grey:hover {
-  color: #fff;
-  background-color: #35495e;
+html,
+body,
+ .main {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
 }
 </style>
 

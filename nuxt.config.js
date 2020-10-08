@@ -13,6 +13,14 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
+  css: [],
+  /*
+   ** Plugins to load before mounting the App
+   */
+  plugins: [
+    // "~/plugins/bootstrap-vue.js"
+  ],
+  modules: ['bootstrap-vue/nuxt'],
   /*
   ** Customize the progress bar color
   */
