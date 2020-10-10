@@ -6,29 +6,29 @@
         <button class="collapsible">Покупателям</button>
         <div class="footer-content">
           <ul>
-            <li><a href="personal-cabinet.html">Личный кабинет</a></li>
-            <li><a href="delivery-payment.html">Доставка и оплата</a></li>
-            <li><a href="return-exchange.html">Возврат и обмен</a></li>
-            <li><a href="">Акции</a></li>
-            <li><a href="">Клуб привелегий</a></li>
-            <li><a href="">Рассрочка и кредит</a></li>
-            <li><a href="faq.html">Частые вопросы</a></li>
-            <li><a href="">Журнал</a></li>
-            <li><a href="">Карта сайта</a></li>
+            <li><nuxt-link to="cabinet">Личный кабинет</nuxt-link></li>
+            <li><nuxt-link to="delivery">Доставка и оплата</nuxt-link></li>
+            <li><nuxt-link to="return-exchange">Возврат и обмен</nuxt-link></li>
+            <li><nuxt-link to="">Акции</nuxt-link></li>
+            <li><nuxt-link to="">Клуб привелегий</nuxt-link></li>
+            <li><nuxt-link to="">Рассрочка и кредит</nuxt-link></li>
+            <li><nuxt-link to="faq">Частые вопросы</nuxt-link></li>
+            <li><nuxt-link to="">Журнал</nuxt-link></li>
+            <li><nuxt-link to="">Карта сайта</nuxt-link></li>
           </ul>
         </div>
         <button class="collapsible">О компании</button>
         <div class="footer-content">
           <ul>
-            <li><a href="about-company.html" class="footer-list-title">О компании</a></li>
-            <li><a href="">Работа у нас</a></li>
-            <li><a href="">Корпоративная культура</a></li>
-            <li><a href="">Ломбарды</a></li>
-            <li><a href="">Социальные проекты</a></li>
-            <li><a href="">Франчайзинг</a></li>
-            <li><a href="">Займы до зарплаты</a></li>
-            <li><a href="">Контакты</a></li>
-            <li><a href="contacts.html">Правовая информация</a></li>
+            <li><nuxt-link to="about" class="footer-list-title">О компании</nuxt-link></li>
+            <li><nuxt-link to="">Работа у нас</nuxt-link></li>
+            <li><nuxt-link to="">Корпоративная культура</nuxt-link></li>
+            <li><nuxt-link to="">Ломбарды</nuxt-link></li>
+            <li><nuxt-link to="">Социальные проекты</nuxt-link></li>
+            <li><nuxt-link to="">Франчайзинг</nuxt-link></li>
+            <li><nuxt-link to="">Займы до зарплаты</nuxt-link></li>
+            <li><nuxt-link to="">Контакты</nuxt-link></li>
+            <li><nuxt-link to="contact">Правовая информация</nuxt-link></li>
           </ul>
         </div>
       </div>
@@ -37,31 +37,31 @@
       <div class="col-md-2 desktop-footer">
         <div class="footer-list-wrap">
           <ul>
-            <li><a href="index.html" class="footer-list-title">Покупателям</a></li>
-            <li><a href="personal-cabinet.html">Личный кабинет</a></li>
-            <li><a href="delivery-payment.html">Доставка и оплата</a></li>
-            <li><a href="return-exchange.html">Возврат и обмен</a></li>
-            <li><a href="">Акции</a></li>
-            <li><a href="">Клуб привелегий</a></li>
-            <li><a href="">Рассрочка и кредит</a></li>
-            <li><a href="faq.html">Частые вопросы</a></li>
-            <li><a href="">Журнал</a></li>
-            <li><a href="">Карта сайта</a></li>
+            <li><nuxt-link to="/" class="footer-list-title">Покупателям</nuxt-link></li>
+            <li><nuxt-link to="cabinet">Личный кабинет</nuxt-link></li>
+            <li><nuxt-link to="delivery">Доставка и оплата</nuxt-link></li>
+            <li><nuxt-link to="return-exchange">Возврат и обмен</nuxt-link></li>
+            <li><nuxt-link to="">Акции</nuxt-link></li>
+            <li><nuxt-link to="">Клуб привелегий</nuxt-link></li>
+            <li><nuxt-link to="">Рассрочка и кредит</nuxt-link></li>
+            <li><nuxt-link to="faq">Частые вопросы</nuxt-link></li>
+            <li><nuxt-link to="">Журнал</nuxt-link></li>
+            <li><nuxt-link to="">Карта сайта</nuxt-link></li>
           </ul>
         </div>
       </div>
       <div class="col-md-2 desktop-footer">
         <div class="footer-list-wrap">
           <ul>
-            <li><a href="about-company.html" class="footer-list-title">О компании</a></li>
-            <li><a href="">Работа у нас</a></li>
-            <li><a href="">Корпоративная культура</a></li>
-            <li><a href="">Ломбарды</a></li>
-            <li><a href="">Социальные проекты</a></li>
-            <li><a href="">Франчайзинг</a></li>
-            <li><a href="">Займы до зарплаты</a></li>
-            <li><a href="">Контакты</a></li>
-            <li><a href="contacts.html">Правовая информация</a></li>
+            <li><nuxt-link to="about" class="footer-list-title">О компании</nuxt-link></li>
+            <li><nuxt-link to="">Работа у нас</nuxt-link></li>
+            <li><nuxt-link to="">Корпоративная культура</nuxt-link></li>
+            <li><nuxt-link to="">Ломбарды</nuxt-link></li>
+            <li><nuxt-link to="">Социальные проекты</nuxt-link></li>
+            <li><nuxt-link to="">Франчайзинг</nuxt-link></li>
+            <li><nuxt-link to="">Займы до зарплаты</nuxt-link></li>
+            <li><nuxt-link to="">Контакты</nuxt-link></li>
+            <li><nuxt-link to="contact">Правовая информация</nuxt-link></li>
           </ul>
         </div>
       </div>
@@ -71,12 +71,12 @@
       <div class="col-md-3">
         <div class="footer-right-wrap">
           <div class="footer-phone-wrap">
-            <a href="tel:">8 (***) *** ****</a>
+            <nuxt-link to="tel:">8 (***) *** ****</nuxt-link>
           </div>
           <div class="footer-social-wrap">
-            <a href="" target="_blank"><img src="../../static/images/instagram.svg" alt=""></a>
-            <a href="" target="_blank"><img src="../../static/images/facebook.svg" alt=""></a>
-            <a href="" target="_blank"><img src="../../static/images/whatsapp.svg" alt=""></a>
+            <nuxt-link to="#" target="_blank"><img src="../../static/images/instagram.svg" alt=""></nuxt-link>
+            <nuxt-link to="#" target="_blank"><img src="../../static/images/facebook.svg" alt=""></nuxt-link>
+            <nuxt-link to="#" target="_blank"><img src="../../static/images/whatsapp.svg" alt=""></nuxt-link>
           </div>
           <div class="copyright">
             2020, © 
@@ -98,4 +98,3 @@ export default {
     }
 }
 </script>
-<style lang="scss" src="@/assets/style/styles.scss"></style>

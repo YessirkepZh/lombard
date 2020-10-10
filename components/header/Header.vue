@@ -14,9 +14,9 @@
             </div>
             <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6">
               <div class="hl-lg-w">
-                <a href="index.html" class="hl-lg-a">
-                  <img src="images/8jsg-_2k1.png" alt="логотип">
-                </a>
+                <nuxt-link to="/" class="hl-lg-a">
+                  <img src="/images/8jsg-_2k1.png" alt="логотип">
+                </nuxt-link>
               </div>
             </div>
             <div class="col-md-6 col-sm-4 col-xs-4">
@@ -24,7 +24,7 @@
                 <div class="hr-w-left">
                   <div class="hr-lc-w">
                     <a href="#" class="hr-lc-a">
-                      <img src="images/location.svg" alt="локация">
+                      <img src="/images/location.svg" alt="локация">
                       <span>Алматы</span>
                     </a>
                   </div>
@@ -80,9 +80,9 @@
 <!-- / Модальное окно открывается после того что выше если пользователь нажмет кнопку нет, в модальном окне будет предложено выбрать его город -->
 
                   <div class="hr-sh-w">
-                    <a href="shops.html" class="hr-sh-a">
+                    <nuxt-link to="/shop" class="hr-sh-a">
                       Магазины
-                    </a>
+                    </nuxt-link>
                   </div>
                   <div class="hr-lb-w">
                     <a href="#" class="hr-lb-a">
@@ -91,18 +91,18 @@
                   </div>
                 </div>
                 <div class="hr-w-right">
-                  <a href="#" class="hr-w-ic-search">
-                    <img src="images/search.svg" alt="поиск">
-                  </a>
-                  <a href="favorites.html" class="hr-w-ic-like">
-                    <img src="images/like.svg" alt="избранные">
-                  </a>
-                  <a href="#" class="hr-w-ic-cart">
-                    <img src="images/cart.svg" alt="корзина">
-                  </a>
-                  <a href="personal-cabinet.html" class="hr-w-ic-login">
-                    <img src="images/user.svg" alt="пользователь">
-                  </a>
+                  <nuxt-link to="#" class="hr-w-ic-search">
+                    <img src="/images/search.svg" alt="поиск">
+                  </nuxt-link>
+                  <nuxt-link to="favorites" class="hr-w-ic-like">
+                    <img src="/images/like.svg" alt="избранные">
+                  </nuxt-link>
+                  <nuxt-link to="cart" class="hr-w-ic-cart">
+                    <img src="/images/cart.svg" alt="корзина">
+                  </nuxt-link>
+                  <nuxt-link to="cabinet" class="hr-w-ic-login">
+                    <img src="/images/user.svg" alt="пользователь">
+                  </nuxt-link>
                 </div>
               </div>
             </div>
@@ -200,7 +200,7 @@
         <div class="hr-lc-w-mob">
           <div class="hr-lc-w">
             <a href="#" class="hr-lc-a">
-              <img src="images/location.svg" alt="локация">
+              <img src="/images/location.svg" alt="локация">
               <span>Алматы</span>
             </a>
 
@@ -232,7 +232,7 @@
         </div>
         <div class="hr-lg-w-mob">
           <a href="personal-cabinet.html" class="hr-w-ic-login">
-            <img src="images/user.svg" alt="пользователь">
+            <img src="/images/user.svg" alt="пользователь">
             Войти
           </a>
         </div>

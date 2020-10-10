@@ -1,18 +1,19 @@
 <template>
   <div>
-
+      <h2>wwwww</h2>
+      <br>
+      <br>
+      <br>
+      <h2>wwwww</h2>
   </div>
 </template>
 
 <script>
-
 export default {
-  components: {
-  }
+
 }
 </script>
 
 <style>
 
 </style>
-
