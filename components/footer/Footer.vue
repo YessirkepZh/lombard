@@ -98,4 +98,4 @@ export default {
     }
 }
 </script>
-<style lang="css" src="@/assets/style/styles.css"></style>
+<style lang="scss" src="@/assets/style/styles.scss"></style>
