@@ -6,7 +6,7 @@
           <div class="col-md-12">
             <div class="home-s-w">
               <div class="slideshow-container owl-theme">
-                <div class="owl-carousel big-slider">
+                <!-- <div class="owl-carousel big-slider">
                   <div class="item">
                       <img src="/images/banners_ru.jpg" alt="баннер" />
                   </div>
@@ -19,7 +19,8 @@
                   <div class="item">
                       <img src="/images/banners_ru.jpg" alt="баннер" />
                   </div>
-                </div>
+                </div> -->
+                <main-banner></main-banner>
               </div>
             </div>
           </div>
@@ -210,9 +211,14 @@
 </template>
 
 <script>
-
+const Banner = () => import(`@/components/Banner.vue`);
+const Dialog = () => import(`@/components/Dialog.vue`);
 export default {
-   transition: 'home'
+   transition: 'home',
+   components:{
+     "main-banner":Banner,
+     "main-dialog":Dialog 
+   }
 }
 </script>
 

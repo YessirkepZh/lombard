@@ -19,8 +19,13 @@ module.exports = {
    */
   plugins: [
     // "~/plugins/bootstrap-vue.js"
+    "~/plugins/axios.js", 
   ],
-  modules: ['bootstrap-vue/nuxt'],
+  modules: [
+    'bootstrap-vue/nuxt', 
+    'nuxt-buefy',
+    '@nuxtjs/axios',
+],
   /*
   ** Customize the progress bar color
   */

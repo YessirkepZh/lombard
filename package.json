@@ -13,8 +13,11 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
+    "@nuxtjs/axios": "^5.12.2",
     "bootstrap-vue": "^2.17.3",
+    "buefy": "^0.9.3",
     "nuxt": "^2.0.0",
+    "nuxt-buefy": "^0.4.3",
     "vue-lazy-hydration": "^1.0.0-beta.14"
   },
   "devDependencies": {
